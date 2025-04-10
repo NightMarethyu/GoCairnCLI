@@ -6,9 +6,9 @@ A portfolio-focused, feature-complete text-based RPG inspired by _Cairn 2e_.
 
 ## 📦 Phase 1: Foundation & Setup
 
-- [ ] Initialize Git repo and run `go mod init`
+- [x] Initialize Git repo and run `go mod init`
 - [ ] Create basic file structure
-- [ ] Write `README.md` with Cairn license + project goals
+- [x] Write `README.md` with Cairn license + project goals
 - [ ] Create basic `main.go` with placeholder input loop
 - [ ] Add `backgrounds.json` to `/data`
 - [ ] Write basic tests for loading backgrounds

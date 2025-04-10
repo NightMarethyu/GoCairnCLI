@@ -17,13 +17,13 @@ A text-based adventure game inspired by _Cairn 2nd Edition_ — explore ancient 
 
 ## 🔧 Features
 
-- 🧙 Character creation with random backgrounds, traits, and inventory
-- 🌍 Procedural world generation (terrain, weather, POIs)
-- 🚶 Explore the world, make decisions, face challenges
-- ⚔️ Deadly combat system with scars and perma-death
-- 🏰 Dungeon crawling with puzzles, lairs, and secrets
+- 🧙 Character creation with random backgrounds, traits, and inventory (WIP)
+- 🌍 Procedural world generation (terrain, weather, POIs) (WIP)
+- 🚶 Explore the world, make decisions, face challenges (WIP)
+- ⚔️ Deadly combat system with scars and perma-death (WIP)
+- 🏰 Dungeon crawling with puzzles, lairs, and secrets (WIP)
 - 💾 Save/load system (WIP)
-- ✅ Full test suite and documentation
+- ✅ Full test suite and documentation (WIP)
 
 ---
 
