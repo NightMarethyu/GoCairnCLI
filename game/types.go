@@ -10,6 +10,7 @@ type Item struct {
 
 	// Optional:
 	DamageDie  int `json:"damage_die,omitempty"`
+	HealingDie int `json:"healing_die,omitempty"`
 	ArmorValue int `json:"armor_value,omitempty"`
 }
 

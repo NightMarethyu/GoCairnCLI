@@ -9,10 +9,10 @@ A portfolio-focused, feature-complete text-based RPG inspired by _Cairn 2e_.
 - [x] Initialize Git repo and run `go mod init`
 - [x] Create basic file structure
 - [x] Write `README.md` with Cairn license + project goals
-- [ ] Create basic `main.go` with placeholder input loop
-- [ ] Add `backgrounds.json` to `/data`
-- [ ] Write basic tests for loading backgrounds
-- [ ] Implement `utils/dice.go` for dice rolling
+- [x] Create basic `main.go` with placeholder input loop
+- [x] Add placeholder `backgrounds.json` to `/data`
+- [x] Write basic tests for loading backgrounds
+- [x] Implement `utils/dice.go` for dice rolling
 
 ---
 

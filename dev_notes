@@ -9,3 +9,5 @@ I'll also need armor which will need to be counted as an item and include an arm
 I'll need to add NPCs including villians, minions, townspeople, faction members, and hirelings
 I'll probably want a party system so that the player can have a party of other adventurers or hirelings with them
 I'll need to keep track of faction goals and progress so that the world evolves around the player as they explore
+
+add a type to the monsters so that we can track things like additional damage to undead by fire or similar things

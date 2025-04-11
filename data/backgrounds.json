@@ -1,59 +1,12 @@
 [
   {
-    "id": 1,
-    "name": "Aurifex",
-    "description": "You are an artisan of the arcane, a smith of subtle forces. In the crucible of your workshop, the laws that govern this world are warped to suit your needs.",
-    "player_names": [
-      "Hestia",
-      "Basil",
-      "Rune",
-      "Prism",
-      "Ember",
-      "Quintess",
-      "Aludel",
-      "Mordant",
-      "Salaman",
-      "Jazia"
-    ],
-    "starting_gear": [
-      "Chisel",
-      "Metal polish",
-      "1d6 gold flakes (petty)"
-    ],
-    "perks": [
-      "Once per day, may appraise a treasure to reveal its hidden history.",
-      "Immune to fear caused by illusions of wealth."
-    ],
-    "page": 20
-  },
-  {
-    "id": 2,
-    "name": "Barber-Surgeon",
-    "description": "You’ve set more bones and lanced more boils than you'd care to admit.",
-    "items": [
-      "Scalpel",
-      "Bandages (3 uses)",
-      "Leeches in a jar"
-    ],
-    "perks": [
-      "Can treat wounds during rest to remove 1 additional Fatigue from target.",
-      "Can perform crude surgery if you have tools and time."
-    ],
-    "page": 22
-  },
-  {
-    "id": 3,
-    "name": "Beast Handler",
-    "description": "Raised alongside hounds, you trust animals more than people.",
-    "items": [
-      "Whistle",
-      "Training stick",
-      "Faithful hound (takes 2 slots)"
-    ],
-    "perks": [
-      "Animals are less likely to be hostile toward you.",
-      "Can train beasts to follow simple commands over time."
-    ],
-    "page": 24
+    "id": "test_background_1",
+    "name": "Test Background 1",
+    "description": "This is a test background to ensure proper loading of JSON data.",
+    "starting_items": [
+      "dagger",
+      "healing_potion",
+      "helmet"
+    ]
   }
 ]

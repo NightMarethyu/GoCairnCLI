@@ -1,0 +1,9 @@
+[
+  {
+    "id": "goblin",
+    "name": "Goblin",
+    "description": "A small, green-skinned creature known for its cunning and mischief. Goblins are often found in caves and forests, raiding villages for supplies.",
+    "hp": 7,
+    "damage_die": 4
+  }
+]

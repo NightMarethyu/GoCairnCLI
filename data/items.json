@@ -1,0 +1,20 @@
+[
+  {
+    "id": "dagger",
+    "name": "Dagger",
+    "description": "A small, sharp blade used for stabbing. It is easy to conceal and quick to draw.",
+    "size": 1,
+    "uses": 45000,
+    "magical": false,
+    "damage_die": 4
+  },
+  {
+    "id": "healing_potion",
+    "name": "Healing Potion",
+    "description": "A small vial filled with a mysterious liquid that glows faintly. When consumed, it restores a small amount of health.",
+    "size": 1,
+    "uses": 1,
+    "magical": true,
+    "healing_die": 4
+  }
+]
