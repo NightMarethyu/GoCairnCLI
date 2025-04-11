@@ -16,5 +16,14 @@
     "uses": 1,
     "magical": true,
     "healing_die": 4
+  },
+  {
+    "id": "helmet",
+    "name": "Helmet",
+    "description": "A hardened leather helmet that protects from blows to the head. It is lightweight and comfortable to wear.",
+    "size": 1,
+    "uses": 50,
+    "magical": false,
+    "armor_value": 1
   }
 ]
