@@ -44,7 +44,7 @@ _Coming soon — demo GIFs and asciinema recordings_
 
 ## 📜 License
 
-This project is released under the **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** license.
+This project is released under the [**Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
 > This means you can share, adapt, and remix this code and content for any purpose — including commercial — as long as you:
 >
