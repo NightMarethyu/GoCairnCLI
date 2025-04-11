@@ -2,6 +2,7 @@ package game
 
 import (
 	"encoding/json"
+	"fmt"
 	"os"
 )
 
@@ -35,4 +36,16 @@ func LoadBackgrounds() ([]Background, error) {
 
 func LoadEnemies() ([]Enemy, error) {
 	return loadJSON[Enemy]("../data/enemies.json")
+}
+
+func ResolveStartingItems(bg Background, itemMap map[string]Item) ([]Item, error) {
+	items := make([]Item, 0, len(bg.StartingItemIDs))
+	for _, id := range bg.StartingItemIDs {
+		item, ok := itemMap[id]
+		if !ok {
+			return nil, fmt.Errorf("item ID %s not found in item map", id)
+		}
+		items = append(items, item)
+	}
+	return items, nil
 }

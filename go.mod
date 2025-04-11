@@ -1,5 +1,3 @@
-module github.com/NightMarethyu/GoCairnCLI/m
+module github.com/NightMarethyu/go_console_rpg
 
 go 1.24.2
-
-require github.com/NightMarethyu/GoCairnCLI v0.0.0-20250411030010-edfb74202ffd

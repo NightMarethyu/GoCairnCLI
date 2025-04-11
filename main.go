@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/NightMarethyu/GoCairnCLI/engine"
+	"github.com/NightMarethyu/go_console_rpg/engine"
 )
 
 func main() {

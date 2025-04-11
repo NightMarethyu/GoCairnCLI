@@ -37,3 +37,24 @@ func TestLoadEnemies(t *testing.T) {
 		t.Errorf("no enemies loaded")
 	}
 }
+
+func TestResolveStartingItems(t *testing.T) {
+	items, err := LoadItems()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	bgs, err := LoadBackgrounds()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	resolved, err := ResolveStartingItems(bgs[0], items)
+	if err != nil {
+		t.Errorf("error resolving starting items: %v", err)
+	}
+
+	if len(resolved) != len(bgs[0].StartingItemIDs) {
+		t.Errorf("expected %d items, got %d", len(bgs[0].StartingItemIDs), len(resolved))
+	}
+}
