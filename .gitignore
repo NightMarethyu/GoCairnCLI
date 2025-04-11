@@ -26,7 +26,3 @@
 # OS-specific files
 .DS_Store
 Thumbs.db
-
-# Go modules
-go.sum
-go.mod
