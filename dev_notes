@@ -1,0 +1,11 @@
+Need to standarize items, weapons, and magic
+items should have a size 0, 1, or 2. meaning Petty, regular, and Bulky. Should be easy to integrate with the inventory in this way.
+Items will need a size, number of uses, description, magical property
+I'll probably need to have the magic spells be more standardized, then I can put the magical property in the item and have the items reference the magic list
+weapons will need to have all the item properties as well as damage.
+Magic will also probably need to be considered as a weapon if it can do damage.
+I'll also need armor which will need to be counted as an item and include an armor amount and maybe where it can be equipped
+
+I'll need to add NPCs including villians, minions, townspeople, faction members, and hirelings
+I'll probably want a party system so that the player can have a party of other adventurers or hirelings with them
+I'll need to keep track of faction goals and progress so that the world evolves around the player as they explore
